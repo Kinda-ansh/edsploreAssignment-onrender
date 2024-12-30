@@ -44,7 +44,7 @@ app.use(morgan(morganFormat, {
 const allowedOrigins = [
   'http://localhost:3031',
   'http://localhost:3032',
-  'https://edsplore-assignment.netlify.app'
+  'https://edsplore-assignment.netlify.app',
   'https://edsplore-assignment.netlify.app/'
 ];
 
