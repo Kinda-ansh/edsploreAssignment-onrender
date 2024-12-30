@@ -40,9 +40,9 @@ app.use(morgan(morganFormat, {
 //   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 //   credentials: true // Allow sending cookies or other credentials
 // }));
+
 const allowedOrigins = [
   'http://localhost:3031',
-  'https://edsplore-assignment.netlify.app',
   'http://localhost:3032'
 ];
 
